@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+
+<title>Portfolio</title>
+</head>
+<body>   
+     
+    <!--NAVBAAR--> 
+    <nav>
+<div class="left">
+    <a href="/">Piyush Poswal</a>
+</div>
+
+<div class="right">
+    <a href="http://github.com" target="_blank" rel="noopener 
+    no-referrer">
+    <i class="fa-brands fa-github"></i>
+    <span>Github</span>
+</a>
+
+<a href="https://www.linkedin.com/in/piyush-0a7a08257/" target="_blank" rel="noopener 
+no-referrer">
+<i class="fa-brands fa-linkedin"></i>
+<span>Linkedin</span>
+</a>
+
+<a href="mailto:piyushposwal17@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+<span>Email</span>
+</a>
+
+</div>
+    </nav> 
+
+    <main>
+        <!--Section1 : Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2 class="typewriter">Hi, I'm Piyush 👨🏻‍💻</h2>
+
+                <p>I am a steadfast software engineer with a fervent dedication to intricate problem-solving and an unwavering commitment to my craft. My background in blog composition enriches my capacity to offer multifaceted solutions. I am deeply devoted to technology, constantly staying abreast of advancements. My adept problem-solving skills ensure innovative solutions, and my dedication drives me to surpass expectations consistently.
+                </p>
+                <div class="link">
+                    <a href="#skills">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>skills</span>
+                    </a>
+
+                    <a href="#Testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#Contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+                </div>
+
+            <div class="headshot">
+                <img src="image-removebg-preview.jpg" alt="piyush poswal headshot">
+            </div>
+
+        </section>
+
+        <!--Section 2 : Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Proficient in full-stack development with expertise in HTML, CSS, JavaScript, Java, Node.js, and React.js. Skilled in creating responsive interfaces, building efficient backend systems, and integrating modern frameworks. Passionate about clean code, problem-solving, and continuous learning to stay updated with the latest tech trends and development best practices.
+
+
+            </div>
+
+            <div class="cells">
+               <div class="cell">
+                <img src="html-logo.webp" alt="html-logo">
+                <span>HTML</span>
+               </div> 
+
+               
+                <div class="cell">
+                 <img src="css-logo.webp" alt="css-logo">
+                 <span>CSS</span>
+                </div> 
+
+                <div class="cell">
+                    <img src="javascript-logo.webp" alt="javascript-logo">
+                    <span>Java</span>
+                   </div>
+
+                   <div class="cell">
+                    <img src="node-logo.webp" alt="node-logo">
+                    <span>Node.js</span>
+                   </div>
+
+                   <div class="cell">
+                    <img src="react-logo.webp" alt="react-logo">
+                    <span>React.js</span>
+                   </div>
+   
+
+            </div>
+        </section>
+
+        <!--Section 3 : Testimony -->
+        <section id="Testimony" class="testimony-section">
+            <h2>Testimony</h2>
+
+            <div class="group">
+                <div class="person-details">
+                    <img src="testimony-headshot.webp">
+                    <p>Ayush Maan</p>
+                    <p>B.tech (CSE) student at GGSIPU.</p>
+                </div>
+
+                <div class="text">
+                    "Working with Piyush has been an inspiring experience. His technical knowledge, dedication, and eye for clean, efficient code make him stand out. Whether it’s frontend or backend, he always delivers with precision and clarity. A true problem-solver who’s passionate about what he does."
+                </div>
+            </div>
+        </section>
+
+        <!--Section4 : Contact -->
+        <section id="Contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    Got an idea that needs some code magic? Or just here to say what’s up? Either way, my inbox is always open—whether it's about work, tech rants, memes, or midnight debugging breakdowns. Slide into the form below, and let’s make something cool together!
+
+
+                </div>
+ <!--Section4 : Contact 
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="name">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+                    <button type="submit"> Send Message</button>
+                </form>
+            -->
+            <form action="https://formspree.io/f/xrbprznk" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+              
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+              
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="10" cols="30"></textarea>
+              
+                <button type="submit">Send Message</button>
+            </form>
+            
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
